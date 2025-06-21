@@ -1,0 +1,46 @@
+backend/
+├── go.mod              # Module definition — required for dependencies
+├── main.go             # Entry point — sets up routes, server
+├── problems/           # Stores input/output files per problem (can also read from ../content/)
+├── routes/             # HTTP route handlers (e.g., check_submission.go, create_mashup.go)
+├── storage/            # Stores JSON or any persisted data (e.g., contests.json, duels.json)
+└── utils/              # Helper functions like file comparators, string cleaners, etc.
+
+// frontend-
+a singular page with problem categories 
+heading
+
+problems | mashups | duels | settings                                                [user name] | logout
+
+problem/
+    - less than 50 problems
+    - less than 100 problems
+
+    basic algo/patterns - 45 problems
+    intermediate problems - 70 problems
+    hard ones - 70 problems
+
+    if you want to do more
+    200 problems
+    200 + 2 * 70 + 50 + 45 = 
+
+
+less than 50 problems
+- find the sum of the array
+- number of digits in a number
+- maximum number of consecutive 0s or 1s in the string
+- check if a number is even or odd (in one line)
+- reverse a string (without using in built functions)
+- find the largest element in an array 
+- find the largest and second largest in an array in one pass
+- count the number of vowels in a string
+- calculate the factorial of a number
+- check if a string is a palindrome
+- find the smallest element in an array second smallest in an array in one pass
+- sum of digits of a number
+- print all prime numbers up to N
+- check if the numeber is in the array?
+- given x rupess how much cup cakes you can buy costing you ai rupess each.
+- a stone has weight wi and power pi, but you have space S, how many weights he can pick so that he gets max power?
+
+
