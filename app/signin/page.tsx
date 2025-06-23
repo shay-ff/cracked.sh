@@ -21,7 +21,7 @@ export default function LoginPage() {
       
     <button
       onClick={handleGoogleLogin}
-      className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded w-full flex items-center justify-center gap-2"
+      className="bg-gray-500 hover:bg-white text-white hover:text-black font-bold py-2 px-4 rounded w-full flex items-center justify-center gap-2"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
